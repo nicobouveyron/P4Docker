@@ -1,0 +1,109 @@
+body{
+    background-color: rgba(108, 131, 125, 0.493);
+}
+
+.Txt-Title{
+    font-size: 60px;
+    text-align: center;
+    color: #FFF;
+    opacity: 0.9;
+}
+
+
+
+.Main_table{
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 20px;
+    margin: auto;
+    width: 50%;
+    height: 80%;
+    background-color: rgb(231, 228, 223);
+    
+    transition: all 500ms ease;
+}
+
+.Main_table>.Ctn-Grille{
+    box-shadow: 0px 0px 30px -3px;
+}
+
+
+.Main_table>.Ctn-Grille>.row{
+    height: calc(100%/ 6);
+}
+
+
+.Main_table>.Ctn-Grille>.row>.col{
+    width: calc(100% / 7);
+    box-sizing: border-box;
+    height: 100%;
+    float: left;
+    border: solid 1px;
+    cursor: pointer;
+}
+
+.Main_table>.Ctn-Grille>.row>.col:hover{
+    background-color: rgb(220, 218, 215);
+    transition: all 500ms ease;
+
+}
+
+
+.Main_table>.Ctn-Grille>.row>.p1-Check{
+    background-image: url(../../Images/p1.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Main_table>.Ctn-Grille>.row>.p2-Check{
+    background-image: url(../../Images/p2.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+@media screen and (max-width: 1200px){
+
+    .Main_table{
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width: 1000px){
+
+    .Main_table{
+        width: 70%;
+    }
+
+}
+
+
+@media screen and (max-width: 900px){
+
+    .Main_table{
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+
+    .Main_table{
+        width: 90%;
+    }
+
+}
+
+
+@media screen and (max-width: 500px){
+
+    .Main_table{
+        width: 100%;
+    }
+
+}
+
